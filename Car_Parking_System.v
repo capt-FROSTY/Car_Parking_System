@@ -3,9 +3,10 @@ module Car_Parking(
   input reset,      
   input carIn,      
   input carOut,     
-  output reg Full 
+  output reg Full,
+  output reg [7:0] count
 );
-  reg [7:0] count;   
+     
   always @(posedge clk) begin
     if (reset) begin
       count <= 0;    
