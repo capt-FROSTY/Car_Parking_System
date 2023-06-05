@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module Car_Parking(
   input clk,        
   input reset,      
