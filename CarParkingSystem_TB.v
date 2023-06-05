@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module Car_Parking_TB();
 reg clk, reset, carIn, carOut;
 wire Full;
