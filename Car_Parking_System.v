@@ -25,6 +25,8 @@ module Car_Parking(
         count <= count - 1;     
         Full <= 0;           
       end
+      else
+        count = 0;
     end
   end
 endmodule
